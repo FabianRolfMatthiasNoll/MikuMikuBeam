@@ -18,6 +18,7 @@ const attackWorkers: { [key in AttackMethod]: string } = {
   http_slowloris: "./workers/httpSlowlorisAttack.js",
   tcp_flood: "./workers/tcpFloodAttack.js",
   minecraft_ping: "./workers/minecraftPingAttack.js",
+  mqtt_attack: "./workers/mqttAttack.js",
 };
 
 const __filename = fileURLToPath(import.meta.url);

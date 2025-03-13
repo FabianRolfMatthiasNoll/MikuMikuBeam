@@ -18,6 +18,7 @@ const METHODS: { [key in AttackMethod]: ProxyProtocol[] } = {
   http_slowloris: ["socks4", "socks5"],
   tcp_flood: ["socks4", "socks5"],
   minecraft_ping: ["socks4", "socks5"],
+  mqtt_attack: ["http", "https", "socks4", "socks5"],
 };
 
 /**

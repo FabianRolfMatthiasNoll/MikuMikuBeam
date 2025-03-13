@@ -391,6 +391,7 @@ function App() {
                   <option value="http_slowloris">HTTP/Slowloris</option>
                   <option value="tcp_flood">TCP/Flood</option>
                   <option value="minecraft_ping">Minecraft/Ping</option>
+                  <option value="mqtt_attack">MQTT Attack</option>
                 </select>
               </div>
               <div>

@@ -13,4 +13,5 @@ export type AttackMethod =
   | "http_bypass"
   | "http_slowloris"
   | "tcp_flood"
-  | "minecraft_ping";
+  | "minecraft_ping"
+  | "mqtt_attack";
